@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-bebas {
+  font-family: "Bebas Neue", cursive;
+}
+.hover\\:bg-accent:hover {
+  background-color: #f4a261;
+}
