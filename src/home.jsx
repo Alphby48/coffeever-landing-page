@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import "./App.css";
 
 const LandingPages = () => {
   const [quantity, setQuantity] = useState(3);
