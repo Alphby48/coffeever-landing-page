@@ -43,7 +43,7 @@ const LandingPages = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-    setMobileMenuOpen(false);
+    // setMobileMenuOpen(false);
   };
 
   const decreaseQty = () => {
@@ -72,7 +72,7 @@ const LandingPages = () => {
               transition={{ delay: 0.3, duration: 0.5 }}
             >
               <img
-                src="/coffeever/coffeever-logo1.png"
+                src="/coffeever/coffeever-logo1.webp"
                 alt="coffeever"
                 className="w-32"
               />
@@ -315,7 +315,7 @@ const LandingPages = () => {
             >
               <div className="relative flex justify-center">
                 <motion.img
-                  src="/coffeever/single-origin2.jpg"
+                  src="/coffeever/single-origin_11zon.webp"
                   alt="Peanut Butter"
                   className="w-full max-w-md"
                   whileHover={{ scale: 1.05, rotate: 2 }}
@@ -360,7 +360,7 @@ const LandingPages = () => {
                 // viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.3 }}
                 whileHover={{ scale: 1.1, rotate: 5 }}
-                src="/coffeever/arabica-3.jpg"
+                src="/coffeever/arabica-3_2_11zon.webp"
                 alt="Product 1"
                 className="w-24 sm:w-32 md:w-36 h-32 sm:h-36 md:h-44 object-cover rounded shadow-lg cursor-pointer"
               />
@@ -370,7 +370,7 @@ const LandingPages = () => {
                 // viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.4 }}
                 whileHover={{ scale: 1.1, rotate: -5 }}
-                src="/coffeever/robusta-3.jpg"
+                src="/coffeever/robusta-3.webp"
                 alt="Product 2"
                 className="w-24 sm:w-32 md:w-36 h-32 sm:h-36 md:h-44 object-cover rounded shadow-lg cursor-pointer"
               />
@@ -410,7 +410,7 @@ const LandingPages = () => {
               //   viewport={{ once: true }}
             >
               <motion.img
-                src="/coffeever/arabica-2.jpg"
+                src="/coffeever/arabica-2_1_11zon.webp"
                 alt="Craft Beer Mix"
                 className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
                 whileHover={{ scale: 1.05, rotate: 2 }}
@@ -530,7 +530,7 @@ const LandingPages = () => {
               //   viewport={{ once: true }}
             >
               <motion.img
-                src="/coffeever/robusta-2.jpg"
+                src="/coffeever/robusta-2_5_11zon.webp"
                 alt="Milk Chocolate Raisins"
                 className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
                 whileHover={{ scale: 1.05, rotate: -2 }}
@@ -607,7 +607,7 @@ const LandingPages = () => {
               transition={{ duration: 0.5 }}
             >
               <img
-                src="/coffeever/coffeever-logo1.png"
+                src="/coffeever/coffeever-logo1.webp"
                 alt="coffeever"
                 className="w-28"
               />
